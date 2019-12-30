@@ -1,7 +1,22 @@
 {
-  "name": "react-redux-skeleton",
+  "name": "redux-form-react-select",
   "version": "0.1.0",
   "private": true,
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "//github.com/alon06100/redux-form-react-select.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "redux-form",
+    "react-select",
+    "react"
+  ],
+  "author": "Alon Maor",
+  "license": "MIT",
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "node-sass": "^4.12.0",
