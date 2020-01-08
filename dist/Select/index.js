@@ -1,8 +1,10 @@
-import React from 'react';
-import Select from 'react-select';
+const React = require('react');
+
+const Select = require('react-select');
 /**
  * onChange from Redux Form Field has to be called explicity.
  */
+
 
 function singleChangeHandler(func) {
   return function handleSingleChange(value) {
@@ -61,7 +63,7 @@ const RFReactSelect = ({
   });
 };
 
-export default RFReactSelect;
+module.exports = RFReactSelect;
 RFReactSelect.defaultProps = {
   multi: false,
   className: ''
