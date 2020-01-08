@@ -1,5 +1,5 @@
-import React from 'react';
-import Select from 'react-select';
+const React = require('react');
+const Select = require('react-select');
 
 
 /**
@@ -62,7 +62,7 @@ const RFReactSelect = ({
   );
 };
 
-export default RFReactSelect;
+module.exports = RFReactSelect;
 
 RFReactSelect.defaultProps = {
   multi: false,

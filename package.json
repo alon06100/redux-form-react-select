@@ -1,7 +1,7 @@
 {
   "name": "redux-form-react-select",
-  "version": "0.1.4",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "version": "0.1.5",
+  "description": "A simple component to integrate redux-form with react-select",
   "main": "./dist/Select",
   "babel": {
     "presets": [
